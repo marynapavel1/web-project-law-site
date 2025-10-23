@@ -1,0 +1,33 @@
+/* src/pages/ServicesPage/ServicesPage.module.css */
+
+.servicesContainer {
+    width: 100%;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #3b0764;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.servicesSlider {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 24px;
+    padding: 24px;
+    -webkit-overflow-scrolling: touch;
+
+    max-width: 1098px;
+    margin: 0 auto;
+
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+}
+
+  .servicesSlider::-webkit-scrollbar {
+    display: none;
+  }

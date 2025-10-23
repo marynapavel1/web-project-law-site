@@ -1,0 +1,39 @@
+.formContainer {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+}
